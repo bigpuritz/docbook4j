@@ -14,13 +14,12 @@
   ~ limitations under the License.
   -->
 
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
     <modelVersion>4.0.0</modelVersion>
     <groupId>net.javaforge.docbook4j</groupId>
     <artifactId>docbook4j</artifactId>
-    <version>1.0.1-SNAPSHOT</version>
+    <version>1.0.1</version>
     <name>docbook4j</name>
     <description>docbook4j: embeddable java library able to render docbook documents</description>
     <url>https://github.com/bigpuritz/docbook4j</url>
@@ -44,7 +43,8 @@
         <connection>scm:git:git@github.com:bigpuritz/docbook4j.git</connection>
         <url>scm:git:git@github.com:bigpuritz/docbook4j.git</url>
         <developerConnection>scm:git:git@github.com:bigpuritz/docbook4j.git</developerConnection>
-    </scm>
+      <tag>docbook4j-1.0.1</tag>
+  </scm>
 
     <issueManagement>
         <system>Google Code</system>
