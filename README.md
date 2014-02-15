@@ -1,7 +1,7 @@
 Intention of this project is to create a simple embeddable java library able to render docbook documents
 into well-known target formats (html, pdf, man,...).
 
-Docbook4j 1.0.0 released! See https://code.google.com/p/docbook4j/downloads/list
+Docbook4j 1.0.1 released! See https://github.com/bigpuritz/docbook4j/releases/tag/docbook4j-1.0.1
 
 Consult this blog post (http://blog.javaforge.net/post/37107285148/render-docbook-with-docbook4j)
 for a more detailed usage explanation/tutorial.
@@ -17,9 +17,9 @@ Maven users please add following repository and dependency declarations to your 
 </repositories>
 
 <dependency>
-    <groupId>com.google.code.docbook4j</groupId>
+    <groupId>net.javaforge.docbook4j</groupId>
     <artifactId>docbook4j</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
 </dependency>
 ```
 
