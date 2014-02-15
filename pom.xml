@@ -19,7 +19,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>net.javaforge.docbook4j</groupId>
     <artifactId>docbook4j</artifactId>
-    <version>1.0.1</version>
+    <version>1.0.2-SNAPSHOT</version>
     <name>docbook4j</name>
     <description>docbook4j: embeddable java library able to render docbook documents</description>
     <url>https://github.com/bigpuritz/docbook4j</url>
@@ -43,7 +43,7 @@
         <connection>scm:git:git@github.com:bigpuritz/docbook4j.git</connection>
         <url>scm:git:git@github.com:bigpuritz/docbook4j.git</url>
         <developerConnection>scm:git:git@github.com:bigpuritz/docbook4j.git</developerConnection>
-      <tag>docbook4j-1.0.1</tag>
+      <tag>HEAD</tag>
   </scm>
 
     <issueManagement>
