@@ -41,9 +41,9 @@
     </licenses>
 
     <scm>
-        <connection>scm:svn:https://docbook4j.googlecode.com/svn/trunk/docbook4j</connection>
-        <developerConnection>scm:svn:https://docbook4j.googlecode.com/svn/trunk/docbook4j</developerConnection>
-        <url>http://code.google.com/p/docbook4j/source/browse</url>
+        <connection>scm:git:git@github.com:bigpuritz/docbook4j.git</connection>
+        <url>scm:git:git@github.com:bigpuritz/docbook4j.git</url>
+        <developerConnection>scm:git:git@github.com:bigpuritz/docbook4j.git</developerConnection>
     </scm>
 
     <issueManagement>
