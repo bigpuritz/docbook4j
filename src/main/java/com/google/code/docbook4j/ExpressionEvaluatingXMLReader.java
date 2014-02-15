@@ -50,7 +50,7 @@ public class ExpressionEvaluatingXMLReader extends XMLFilterImpl {
                     target, data);
             String result = e.getEvaluator().evaluate(data, piContext);
             if (result != null) {
-                char[] resultArray = result.toString().toCharArray();
+                char[] resultArray = result.toCharArray();
                 this.characters(resultArray, 0, resultArray.length);
             }
             return;

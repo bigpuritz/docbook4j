@@ -33,6 +33,11 @@ public class TestWithDefaultXsl extends BaseDocbook4JTest {
             + new File("src/test/resources/testing-default-xsl.zip").getAbsolutePath()
             + "!testing/css/corporate.css";
 
+    @Override
+    protected String getTargetFolder() {
+        return "default";
+    }
+
     @Test
     public void testPDFGeneration() throws Throwable {
         PDFRenderer pdfRenderer = PDFRenderer.create(source).variable(

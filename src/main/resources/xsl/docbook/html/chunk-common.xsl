@@ -8,7 +8,7 @@ xmlns:exsl="http://exslt.org/common"
                 exclude-result-prefixes="exsl cf ng db d">
 
 <!-- ********************************************************************
-     $Id: chunk-common.xsl 9362 2012-05-12 23:41:56Z bobstayton $
+     $Id: chunk-common.xsl 9665 2012-11-08 14:26:20Z kosek $
      ********************************************************************
 
      This file is part of the XSL DocBook Stylesheet distribution.
@@ -906,9 +906,10 @@ xmlns:exsl="http://exslt.org/common"
           </xsl:when>
           <xsl:when test="$css.decoration != 0">
             <xsl:attribute name="style">
-              <xsl:value-of select="concat('width:100; align:',
+              <xsl:value-of select="concat('width:100; text-align:',
                                             $direction.align.start,
-                                            ';')"/>
+                                            ';',
+					    'margin-', $direction.align.start, ': 0')"/>
             </xsl:attribute>
           </xsl:when>
           <xsl:otherwise>

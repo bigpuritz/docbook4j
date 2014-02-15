@@ -14,7 +14,7 @@
 # Organization for the Advancement of Structured Information
 # Standards (OASIS).
 #
-# Release: $Id: db4-upgrade.xsl 7660 2008-02-06 13:48:36Z nwalsh $
+# Release: $Id$
 #
 # Permission to use, copy, modify and distribute this stylesheet
 # and its accompanying documentation for any purpose and without fee
@@ -379,7 +379,7 @@
 <xsl:template match="formalpara|figure|table[tgroup]|example|blockquote
                      |caution|important|note|warning|tip
                      |bibliodiv|glossarydiv|indexdiv
-		     |orderedlist|itemizedlist|variablelist|procedure
+		     |orderedlist|itemizedlist|variablelist|procedure|step
 		     |task|tasksummary|taskprerequisites|taskrelated
 		     |sidebar"
 	      priority="200">
@@ -1092,13 +1092,18 @@
 </xsl:template>
 
 <xsl:template match="abstract" priority="300">
-  <xsl:if test="not(contains(name(parent::*),'info'))">
-    <xsl:call-template name="emit-message">
-      <xsl:with-param name="message">
-	<xsl:text>Check abstract; moved into info correctly?</xsl:text>
-      </xsl:with-param>
-    </xsl:call-template>
-  </xsl:if>
+  <xsl:choose>
+    <xsl:when test="not(contains(name(parent::*),'info'))">
+      <xsl:call-template name="emit-message">
+        <xsl:with-param name="message">
+          <xsl:text>Check abstract; moved into info correctly?</xsl:text>
+        </xsl:with-param>
+      </xsl:call-template>
+    </xsl:when>
+    <xsl:otherwise>
+      <xsl:apply-templates select="." mode="copy"/>
+    </xsl:otherwise>
+  </xsl:choose>
 </xsl:template>
 
 <xsl:template match="indexterm">

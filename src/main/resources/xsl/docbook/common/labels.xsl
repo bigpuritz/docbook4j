@@ -6,7 +6,7 @@ xmlns:doc="http://nwalsh.com/xsl/documentation/1.0"
                 version='1.0'>
 
 <!-- ********************************************************************
-     $Id: labels.xsl 9286 2012-04-19 10:10:58Z bobstayton $
+     $Id: labels.xsl 9664 2012-11-07 20:02:17Z bobstayton $
      ********************************************************************
 
      This file is part of the XSL DocBook Stylesheet distribution.
@@ -790,6 +790,10 @@ element label.</para>
   </xsl:variable>
 
   <xsl:number value="$item-number" format="{$type}"/>
+</xsl:template>
+
+<xsl:template match="d:production" mode="label.markup">
+  <xsl:number count="d:production" level="any"/>
 </xsl:template>
 
 <xsl:template match="d:abstract" mode="label.markup">

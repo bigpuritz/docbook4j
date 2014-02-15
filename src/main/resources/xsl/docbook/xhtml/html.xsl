@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="ASCII"?>
 <!--This file was created automatically by html2xhtml-->
 <!--from the HTML stylesheets.-->
-<xsl:stylesheet exclude-result-prefixes="d db4j"
-                 xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:d="http://docbook.org/ns/docbook" xmlns:db4j="xalan://com.google.code.docbook4j.XSLTUtils"
+<xsl:stylesheet exclude-result-prefixes="d"
+                 xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:d="http://docbook.org/ns/docbook"
 xmlns="http://www.w3.org/1999/xhtml" version="1.0">
 
 <!-- ********************************************************************
@@ -506,12 +506,7 @@ xmlns="http://www.w3.org/1999/xhtml" version="1.0">
   </xsl:variable>
 
   <xsl:if test="string-length($css.filename) != 0">
-  	<!-- 
     <link rel="stylesheet" type="text/css" href="{$href}"/>
-     -->
-    <style type="text/css">
-		<xsl:value-of select="db4j:dumpCss($base.dir, $css.filename)" disable-output-escaping="yes"/>
-    </style>
   </xsl:if>
 </xsl:template>
 

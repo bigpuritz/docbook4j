@@ -8,7 +8,7 @@ xmlns:fo="http://www.w3.org/1999/XSL/Format"
                 version='1.0'>
 
 <!-- ********************************************************************
-     $Id: xref.xsl 9286 2012-04-19 10:10:58Z bobstayton $
+     $Id: xref.xsl 9650 2012-10-26 18:24:02Z bobstayton $
      ********************************************************************
 
      This file is part of the XSL DocBook Stylesheet distribution.
@@ -319,7 +319,7 @@ xmlns:fo="http://www.w3.org/1999/XSL/Format"
                      |d:constraintdef|d:formalpara|d:glossdiv|d:important|d:indexdiv
                      |d:itemizedlist|d:legalnotice|d:lot|d:msg|d:msgexplan|d:msgmain
                      |d:msgrel|d:msgset|d:msgsub|d:note|d:orderedlist|d:partintro
-                     |d:productionset|d:qandadiv|d:refsynopsisdiv|d:segmentedlist
+                     |d:productionset|d:qandadiv|d:refsynopsisdiv|d:screenshot|d:segmentedlist
                      |d:set|d:setindex|d:sidebar|d:tip|d:toc|d:variablelist|d:warning"
               mode="xref-to">
   <xsl:param name="referrer"/>
@@ -1099,8 +1099,6 @@ xmlns:fo="http://www.w3.org/1999/XSL/Format"
   <!-- olink content may be passed in from xlink olink -->
   <xsl:param name="content" select="NOTANELEMENT"/>
 
-  <xsl:variable name="localinfo" select="@localinfo"/>
-
   <xsl:choose>
     <!-- olinks resolved by stylesheet and target database -->
     <xsl:when test="@targetdoc or @targetptr or
@@ -1342,14 +1340,6 @@ xmlns:fo="http://www.w3.org/1999/XSL/Format"
 
 </xsl:template>
 
-
-<xsl:template name="olink.outline">
-  <xsl:param name="outline.base.uri"/>
-  <xsl:param name="localinfo"/>
-  <xsl:param name="return" select="d:href"/>
-
-  <xsl:message terminate="yes">Fatal error: olink.outline template: what is this supposed to do?</xsl:message>
-</xsl:template>
 
 <!-- ==================================================================== -->
 

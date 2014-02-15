@@ -34,7 +34,7 @@ public abstract class BaseDocbook4JTest {
 
     protected void writeToFile(InputStream in, String filename) throws Throwable {
 
-        File targetDir = new File("target");
+        File targetDir = new File("target/testout/" + getTargetFolder());
         targetDir.mkdirs();
 
         FileOutputStream out = new FileOutputStream(new File(targetDir, filename));
@@ -44,6 +44,9 @@ public abstract class BaseDocbook4JTest {
         out.close();
         in.close();
     }
+
+
+    protected abstract String getTargetFolder();
 
     static final class Project {
 

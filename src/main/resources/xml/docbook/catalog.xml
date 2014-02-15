@@ -19,55 +19,55 @@
      information on supplying and using catalog data.
 -->
 
-<public publicId="-//OASIS//DTD DocBook XML 5.0//EN" uri="dtd/docbook.dtd"/>
+<public publicId="-//OASIS//DTD DocBook XML 5.1b4//EN" uri="dtd/docbook.dtd"/>
 
-<system systemId="http://www.oasis-open.org/docbook/xml/5.0/dtd/docbook.dtd" uri="dtd/docbook.dtd"/>
+<system systemId="http://www.oasis-open.org/docbook/xml/5.1b4/dtd/docbook.dtd" uri="dtd/docbook.dtd"/>
 
-<system systemId="http://docbook.org/xml/5.0/dtd/docbook.dtd" uri="dtd/docbook.dtd"/>
+<system systemId="http://docbook.org/xml/5.1b4/dtd/docbook.dtd" uri="dtd/docbook.dtd"/>
 
-<uri name="http://www.oasis-open.org/docbook/xml/5.0/rng/docbook.rng" uri="rng/docbook.rng"/>
+<uri name="http://www.oasis-open.org/docbook/xml/5.1b4/rng/docbook.rng" uri="rng/docbook.rng"/>
 
-<uri name="http://docbook.org/xml/5.0/rng/docbook.rng" uri="rng/docbook.rng"/>
+<uri name="http://docbook.org/xml/5.1b4/rng/docbook.rng" uri="rng/docbook.rng"/>
 
-<uri name="http://www.oasis-open.org/docbook/xml/5.0/rng/docbookxi.rng" uri="rng/docbookxi.rng"/>
+<uri name="http://www.oasis-open.org/docbook/xml/5.1b4/rng/docbookxi.rng" uri="rng/docbookxi.rng"/>
 
-<uri name="http://docbook.org/xml/5.0/rng/docbookxi.rng" uri="rng/docbookxi.rng"/>
+<uri name="http://docbook.org/xml/5.1b4/rng/docbookxi.rng" uri="rng/docbookxi.rng"/>
 
-<uri name="http://www.oasis-open.org/docbook/xml/5.0/rng/docbook.rnc" uri="rng/docbook.rnc"/>
+<uri name="http://www.oasis-open.org/docbook/xml/5.1b4/rng/docbook.rnc" uri="rng/docbook.rnc"/>
 
-<uri name="http://docbook.org/xml/5.0/rng/docbook.rnc" uri="rng/docbook.rnc"/>
+<uri name="http://docbook.org/xml/5.1b4/rng/docbook.rnc" uri="rng/docbook.rnc"/>
 
-<uri name="http://www.oasis-open.org/docbook/xml/5.0/rng/docbookxi.rnc" uri="rng/docbookxi.rnc"/>
+<uri name="http://www.oasis-open.org/docbook/xml/5.1b4/rng/docbookxi.rnc" uri="rng/docbookxi.rnc"/>
 
-<uri name="http://docbook.org/xml/5.0/rng/docbookxi.rnc" uri="rng/docbookxi.rnc"/>
+<uri name="http://docbook.org/xml/5.1b4/rng/docbookxi.rnc" uri="rng/docbookxi.rnc"/>
 
-<uri name="http://www.oasis-open.org/docbook/xml/5.0/xsd/docbook.xsd" uri="xsd/docbook.xsd"/>
+<uri name="http://www.oasis-open.org/docbook/xml/5.1b4/xsd/docbook.xsd" uri="xsd/docbook.xsd"/>
 
-<uri name="http://docbook.org/xml/5.0/xsd/docbook.xsd" uri="xsd/docbook.xsd"/>
+<uri name="http://docbook.org/xml/5.1b4/xsd/docbook.xsd" uri="xsd/docbook.xsd"/>
 
-<uri name="http://www.oasis-open.org/docbook/xml/5.0/xsd/docbookxi.xsd" uri="xsd/docbookxi.xsd"/>
+<uri name="http://www.oasis-open.org/docbook/xml/5.1b4/xsd/docbookxi.xsd" uri="xsd/docbookxi.xsd"/>
 
-<uri name="http://docbook.org/xml/5.0/xsd/docbookxi.xsd" uri="xsd/docbookxi.xsd"/>
+<uri name="http://docbook.org/xml/5.1b4/xsd/docbookxi.xsd" uri="xsd/docbookxi.xsd"/>
 
-<uri name="http://www.oasis-open.org/docbook/xml/5.0/xsd/xi.xsd" uri="xsd/xi.xsd"/>
+<uri name="http://www.oasis-open.org/docbook/xml/5.1b4/xsd/xi.xsd" uri="xsd/xi.xsd"/>
 
-<uri name="http://docbook.org/xml/5.0/xsd/xi.xsd" uri="xsd/xi.xsd"/>
+<uri name="http://docbook.org/xml/5.1b4/xsd/xi.xsd" uri="xsd/xi.xsd"/>
 
-<uri name="http://www.oasis-open.org/docbook/xml/5.0/xsd/xlink.xsd" uri="xsd/xlink.xsd"/>
+<uri name="http://www.oasis-open.org/docbook/xml/5.1b4/xsd/xlink.xsd" uri="xsd/xlink.xsd"/>
 
-<uri name="http://docbook.org/xml/5.0/xsd/xlink.xsd" uri="xsd/xlink.xsd"/>
+<uri name="http://docbook.org/xml/5.1b4/xsd/xlink.xsd" uri="xsd/xlink.xsd"/>
 
-<uri name="http://www.oasis-open.org/docbook/xml/5.0/xsd/xml.xsd" uri="xsd/xml.xsd"/>
+<uri name="http://www.oasis-open.org/docbook/xml/5.1b4/xsd/xml.xsd" uri="xsd/xml.xsd"/>
 
-<uri name="http://docbook.org/xml/5.0/xsd/xml.xsd" uri="xsd/xml.xsd"/>
+<uri name="http://docbook.org/xml/5.1b4/xsd/xml.xsd" uri="xsd/xml.xsd"/>
 
-<uri name="http://www.oasis-open.org/docbook/xml/5.0/sch/docbook.sch" uri="sch/docbook.sch"/>
+<uri name="http://www.oasis-open.org/docbook/xml/5.1b4/sch/docbook.sch" uri="sch/docbook.sch"/>
 
-<uri name="http://docbook.org/xml/5.0/sch/docbook.sch" uri="sch/docbook.sch"/>
+<uri name="http://docbook.org/xml/5.1b4/sch/docbook.sch" uri="sch/docbook.sch"/>
 
-<uri name="http://www.oasis-open.org/docbook/xml/5.0/docbook.nvdl" uri="docbook.nvdl"/>
+<!--uri name="http://www.oasis-open.org/docbook/xml/5.1b4/docbook.nvdl" uri="docbook.nvdl"/>
 
-<uri name="http://docbook.org/xml/5.0/docbook.nvdl" uri="docbook.nvdl"/>
+<uri name="http://docbook.org/xml/5.1b4/docbook.nvdl" uri="docbook.nvdl"/-->
 
 <!-- End of XML Catalog for DocBook ............................. -->
 <!-- ............................................................ -->

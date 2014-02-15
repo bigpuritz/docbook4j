@@ -41,6 +41,11 @@ public class TestWithCustomXsl extends BaseDocbook4JTest {
             + new File("src/test/resources/testing-custom-xsl.zip")
             .getAbsolutePath() + "!testing/css/html.css";
 
+    @Override
+    protected String getTargetFolder() {
+        return "custom";
+    }
+
     @Test
     public void testPDFGeneration() throws Throwable {
         PDFRenderer pdfRenderer = PDFRenderer.create(source, pdfXsl)
