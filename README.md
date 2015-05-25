@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/bigpuritz/docbook4j.svg)](https://travis-ci.org/bigpuritz/docbook4j)
+
 Intention of this project is to create a simple embeddable java library able to render docbook documents
 into well-known target formats (html, pdf, man,...).
 
